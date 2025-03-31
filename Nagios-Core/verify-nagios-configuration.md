@@ -6,4 +6,4 @@ It is important to do this before restarting Nagios Core, as it will shut down i
 
 To verify the configuration, we must run the Nagios Core binary with the -v command line option, as shown below:
 
-'$ sudo /usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg'
+    $ sudo /usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg
