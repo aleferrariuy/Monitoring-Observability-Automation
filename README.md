@@ -1,4 +1,4 @@
-# Nagios-Core-examples
+# Nagios-Core-examples !(/images/nagios_logo_256.png)
 ## Examples of integration into a monitoring ecosystem powered by automation, optimizing IT management.
 
 ### Contents:
