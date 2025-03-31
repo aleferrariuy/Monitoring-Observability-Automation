@@ -21,15 +21,15 @@ It's important to consider making a backup copy of the files you want to edit be
 
 At its first level, *etc* includes the main Nagios Core configuration file: *nagios.cfg*
 
-*cgi.cfg* ............ Other configuration file
-*resource.cfg* ....... User macros
-htpasswd.users ....... User accounts
+    *cgi.cfg* ............ Other configuration file
+    *resource.cfg* ....... User macros
+    htpasswd.users ....... User accounts
 
-*commands.cfg* ....... Commands to be invoked by Nagios Core to monitor hosts or services, using plugins from its libraries, or an agent hosted on the hosts to be monitored.
-*contacts.cfg* ....... Declaration of contacts or command groups that Nagios Core will notify if necessary in the event of an incident.
-*localhost.cfg* ...... This file declares the host where Nagios Core itself is hosted, as well as all the basic services it runs. For these, the necessary monitoring commands are defined.
-*templates.cfg* ...... Both hosts and services can often have redundant or repetitive feature patterns. To optimize time and facilitate reuse or portability, reusable templates can be defined.
-*timeperiods.cfg* .... This file declares the "time periods" to be used in the other configuration files.
+    *commands.cfg* ....... Commands to be invoked by Nagios Core to monitor hosts or services, using plugins from its libraries, or an agent hosted on the hosts to be monitored.
+    *contacts.cfg* ....... Declaration of contacts or command groups that Nagios Core will notify if necessary in the event of an incident.
+    *localhost.cfg* ...... This file declares the host where Nagios Core itself is hosted, as well as all the basic services it runs. For these, the necessary monitoring commands are defined.
+    *templates.cfg* ...... Both hosts and services can often have redundant or repetitive feature patterns. To optimize time and facilitate reuse or portability, reusable templates can be defined.
+    *timeperiods.cfg* .... This file declares the "time periods" to be used in the other configuration files.
 
 
 ### External support resources
