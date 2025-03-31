@@ -21,11 +21,11 @@ It's important to consider making a backup copy of the files you want to edit be
 
 At its first level, *etc* includes the main Nagios Core configuration file: *nagios.cfg*
 
-| *cgi.cfg* ............ | Other configuration file |
+*cgi.cfg* ............ Other configuration file
 
-| *resource.cfg* ....... | User macros |               
+*resource.cfg* ....... User macros               
 
-| *htpasswd.users* ..... | User accounts |
+*htpasswd.users* ..... User accounts
 
 
 *commands.cfg* ....... Commands to be invoked by Nagios Core to monitor hosts or services, using plugins from its libraries, or an agent hosted on the hosts to be monitored.
