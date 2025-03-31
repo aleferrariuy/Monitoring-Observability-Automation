@@ -21,3 +21,5 @@ Many times, the output may only warn you that within the configuration, some par
 An example is if you configure the hosts without configuring the contacts that will receive notifications of host or service events. You would see output like the following:
 
     example 3 here
+
+---/---
