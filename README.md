@@ -1,6 +1,6 @@
 # Nagios-Core-examples 
 ### Examples of integration into a monitoring ecosystem powered by automation, optimizing IT management.
-![](/images/nagios_logo_64.png) ![](/images/ansible_logo_64.jpg) ![](/images/bash_logo_64.jpg) ![](/images/powershell_logo_64.jpg)
+![](/images/nagios_logo_64.jpg) ![](/images/ansible_logo_64.jpg) ![](/images/bash_logo_64.jpg) ![](/images/powershell_logo_64.jpg)
 ### Contents:
 - [Nagios Core](https://github.com/aleferrariuy/Nagios-Core-examples/tree/main/Nagios-Core)
 - [Automation resources](https://github.com/aleferrariuy/Nagios-Core-examples/tree/main/automation-resources).
