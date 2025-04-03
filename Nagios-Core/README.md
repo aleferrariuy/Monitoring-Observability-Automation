@@ -1,6 +1,6 @@
 # Nagios Core
 
-### Directories structure
+### Nagios Core directories structure
 
     /usr/local/nagios/etc/objects
                      /bin
