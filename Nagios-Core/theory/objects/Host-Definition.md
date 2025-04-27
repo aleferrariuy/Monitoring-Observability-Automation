@@ -1,5 +1,5 @@
-##Host Definition
-###Description:
+## Host Definition
+### Description:
 
 A host definition is used to define a physical server, workstation, device, etc. that resides on your network.
 
