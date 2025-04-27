@@ -7,54 +7,58 @@ Definition Format:
 
 Note: Directives in red are required, while those in black are optional.
 
+```
 define host {
-host_name	host_name
-alias	alias
-display_name	display_name
-address	address
-parents	host_names
-importance	#
-hostgroups	hostgroup_names
-check_command	command_name
-initial_state	[o,d,u]
-max_check_attempts	#
-check_interval	#
-retry_interval	#
-active_checks_enabled	[0/1]
-passive_checks_enabled	[0/1]
-check_period	timeperiod_name
-obsess_over_host|obsess	[0/1]
-check_freshness	[0/1]
-freshness_threshold	#
-event_handler	command_name
-event_handler_enabled	[0/1]
-low_flap_threshold	#
-high_flap_threshold	#
-flap_detection_enabled	[0/1]
-flap_detection_options	[o,d,u]
-process_perf_data	[0/1]
-retain_status_information	[0/1]
+host_name						host_name				# required
+alias							alias
+display_name					display_name
+address							address					# required
+parents							host_names
+importance						#
+hostgroups						hostgroup_names
+check_command					command_name
+initial_state					[o,d,u]
+max_check_attempts				#						# required
+check_interval					#
+retry_interval					#
+active_checks_enabled			[0/1]
+passive_checks_enabled			[0/1]
+check_period					timeperiod_name			# required
+obsess_over_host|obsess			[0/1]
+check_freshness					[0/1]
+freshness_threshold				#
+event_handler					command_name
+event_handler_enabled			[0/1]
+low_flap_threshold				#
+high_flap_threshold				#
+flap_detection_enabled			[0/1]
+flap_detection_options			[o,d,u]
+process_perf_data				[0/1]
+retain_status_information		[0/1]
 retain_nonstatus_information	[0/1]
-contacts	contacts
-contact_groups	contact_groups
-notification_interval	#
-first_notification_delay	#
-notification_period	timeperiod_name
-notification_options	[d,u,r,f,s]
-notifications_enabled	[0/1]
-stalking_options	[o,d,u,N]
-notes	note_string
-notes_url	url
-action_url	url
-icon_image	image_file
-icon_image_alt	alt_string
-vrml_image	image_file
-statusmap_image	image_file
-2d_coords	x_coord,y_coord
-3d_coords	x_coord,y_coord,z_coord
-}    	
+contacts						contacts
+contact_groups					contact_groups
+notification_interval			#
+first_notification_delay		#
+notification_period				timeperiod_name			# required
+notification_options			[d,u,r,f,s]
+notifications_enabled			[0/1]
+stalking_options				[o,d,u,N]
+notes							note_string
+notes_url						url
+action_url						url
+icon_image						image_file
+icon_image_alt					alt_string
+vrml_image						image_file
+statusmap_image					image_file
+2d_coords						x_coord,y_coord
+3d_coords						x_coord,y_coord,z_coord
+} 
+```
+
 Example Definition:
 
+```
 define host {
     host_name                       bogus-router
     alias                           Bogus Router #1
@@ -72,6 +76,8 @@ define host {
     notification_period             24x7
     notification_options            d,u,r
 }
+```
+
 Directive Descriptions:
 
 host_name:	This directive is used to define a short name used to identify the host. It is used in host group and service definitions to reference this particular host. Hosts can have multiple services (which are monitored) associated with them. When used properly, the $HOSTNAME$ macro will contain this short name.
