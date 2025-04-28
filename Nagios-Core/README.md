@@ -1,16 +1,20 @@
 # Nagios Core
-
 ### Nagios Core directories structure
+~~~
+/usr/local/nagios/etc/objects
+~~~
 
-    /usr/local/nagios/etc/objects
-                     /bin
-                     /libexec
-                     /sbin
-                     /share
-                     /var/archives
-                         /rw
-                         /spool
+~~~
+/usr/local/nagios/etc
+~~~
 
+~~~
+/usr/local/nagios/libexec
+~~~
+
+~~~
+/usr/local/nagios/share
+~~~
 
 
 ### External support resources
